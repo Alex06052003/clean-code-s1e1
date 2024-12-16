@@ -39,6 +39,7 @@
 }
 
 .task-row-wrapper {
+  padding: 20px 0;
   display: flex;
 }
 
