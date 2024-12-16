@@ -38,7 +38,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.wrapper {
   padding: 20px 0;
   display: flex;
 }
@@ -73,8 +73,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,12 +101,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-}
-
-#new-task {
+.new-task {
   width: 318px;
 }
 
@@ -151,7 +145,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
